@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "HurmeGeometricSans3W01-Bold";
+    src: url("6454703ad1181894b60320f24b10479e.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Hurme Geometric Sans No.2";
+    src: url("ff297553ecfa88343e7f894c056f6cc7.woff2") format("woff2");
+}
+
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: "HurmeGeometricSans3W01-Bold";
+}
+
+.header {
+    background-color: #1d2022;
+    padding: 30px;
+}
+
+.title {
+    color: #cccccd;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.sep {
+    background: linear-gradient(to right, #202325, #2c3032 50%, #202325);
+    height: 2px;
+}
+
+.content {
+    background-color: #212426;
+    height: 100%;
+}
+
+.button {
+    margin-top: 50px;
+    font-family: "Hurme Geometric Sans No.2";
+    font-size: 22px;
+    color: #e3e4e4;
+    padding: 20px 25px 20px 25px;
+    box-shadow:
+        -8px -8px 15px -3px rgba(255, 255, 255, 0.1),
+        6px 6px 15px 0px rgba(0, 0, 0, 0.3),
+        inset 3px 3px 15px -15px rgba(255, 255, 255, 1),
+        inset -10px -10px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+.button:hover {
+    box-shadow:
+        -8px -8px 15px -3px rgba(255, 255, 255, 0.1),
+        6px 6px 15px 0px rgba(0, 0, 0, 0.3),
+        inset 5px 5px 20px -10px rgba(0, 0, 0, 1),
+        inset -5px -5px 20px -10px rgba(255, 255, 255, 0.1);
+    color:#acacac;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1d2022;
+    padding: 30px;
+}
